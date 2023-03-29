@@ -10,7 +10,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #7d2ae8;
+    background-color: #6027fc;
 }
 
 .wrapper{
@@ -41,7 +41,7 @@ body{
 
 .time span.ms-colon,
 .time span.millisecond{
-    color: #7d2ae8;
+    color: #6027fc;
 }
 
 .wrapper .buttons{
@@ -54,13 +54,20 @@ body{
     outline: none;
     border: none;
     margin: 0 5px;
-    color: #7d2ae8;
+    color: #6027fc;
     background: #fff;
     font-size: 19px;
     font-weight: 500;
     border-radius: 4px;
     cursor: pointer;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, .09);
+}
+
+.buttons button:hover{
+    background: #6027fc;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 22px;
 }
 
 .buttons button.active,
